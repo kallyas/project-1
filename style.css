@@ -1,0 +1,237 @@
+/**
+* ACTIVE YOUTH AFRICA
+* -------------------------------------
+*
+*/
+
+
+/*
+//====================================================================
+//
+// MOBILE / SMALL SCREEN (0px - 480px)
+//
+//====================================================================
+*/
+
+
+/*
+//--------------------------------
+// Header
+//--------------------------------
+*/
+.headertwo .title.image {
+	max-width: 220px;
+	margin-top: 0px;
+}
+
+.headertwo .subtitle {
+	margin-top: 0px;
+	top:-20px;
+}
+
+
+
+/*
+//--------------------------------
+// Intro
+//--------------------------------
+*/
+
+.intro .rowtitle { color: #464646; }
+.intro .rowtext { color: #898989; }
+
+/*
+//--------------------------------
+// Brian & Bobbie
+//--------------------------------
+*/
+.brianbobbie { min-height: 325px;  }
+.brianbobbie .text { text-align: center; }
+.brianbobbie .rowtitle { margin-bottom: 15px; margin-top: 70px; }
+.brianbobbie .description {
+	font-size: 15px;
+	max-width: 378px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.brianbobbie .quote { display: none; }
+
+/*
+//--------------------------------
+// Music
+//--------------------------------
+*/
+
+.music .imagecomponent-image { width: 40%; }
+
+/*
+//--------------------------------
+// TV
+//--------------------------------
+*/
+
+.tv {}
+.tv .rowtitle { margin-bottom: 20px; }
+.tv .description {
+	font-size: 15px;
+	max-width: 378px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+
+.tv .video { display: none; }
+
+/*
+//--------------------------------
+// Because We Can
+//--------------------------------
+*/
+.imgbg.bwc  { background-position: bottom bottom !important; background-position-x: bottom; background-position-y: bottom;  }
+
+.bwc .rowtitle { max-width: 435px; margin: 0 auto; }
+
+/*
+//====================================================================
+//
+// TABLET (Bigger than 767px )
+//
+//====================================================================
+*/
+@media only screen and (min-width: 767px)
+{
+	.imgbg { background-attachment: scroll; }
+
+
+	/*
+	//--------------------------------
+	// Header
+	//--------------------------------
+	*/
+	.headertwo .logo { margin-top: 0px; }
+	.headertwo .title.image { max-width: 400px; }
+	.headertwo.nopromo .logo { margin-top: 40px; }
+
+	/*
+	//--------------------------------
+	// Brian & Bobbie
+	//--------------------------------
+	*/
+	.brianbobbie .description { font-size: 18px; }
+	.brianbobbie .quote { display: block; }
+
+	/*
+	//--------------------------------
+	// Music
+	//--------------------------------
+	*/
+
+	.music .imagecomponent-image { width: 40%; }
+
+	/*
+	//--------------------------------
+	// TV
+	//--------------------------------
+	*/
+	.tv .rowtitle { margin-bottom: 10px; }
+	.tv .description {
+		font-size: 28px;
+		line-height: 34px;
+		font-weight: 300;
+	}
+
+
+}
+
+/*
+//====================================================================
+//
+// DESKTOP (Bigger than 979px )
+//
+//====================================================================
+*/
+@media only screen and (min-width: 979px)
+{
+
+	/*
+	//--------------------------------
+	// Header
+	//--------------------------------
+	*/
+	.headertwo .title.image { max-width: 600px; }
+
+	/*
+	//--------------------------------
+	// Music
+	//--------------------------------
+	*/
+
+	.music .imagecomponent-image { width: 100%; }
+
+	/*
+	//--------------------------------
+	// TV
+	//--------------------------------
+	*/
+	.tv .description {
+		font-size: 36px;
+		line-height: 44px;
+		max-width: 450px;
+	}
+
+}
+
+/*
+//====================================================================
+//
+// LARGE SCREEN ( Bigger than 1199px )
+//
+//====================================================================
+*/
+@media only screen and (min-width: 1199px)
+{
+
+
+
+	/*
+	//--------------------------------
+	// Music
+	//--------------------------------
+	*/
+
+	.music .imagecomponent-image { width: 80%; }
+
+}
+
+/*
+//====================================================================
+//
+// CRAZY LARGE
+//
+//====================================================================
+*/
+
+
+
+/* Width Fixes */
+@media only screen and (min-width:1680px)
+{
+	.headertwo.nopromo .logo { margin-top: 150px; }
+}
+
+@media only screen and (min-width:1800px)
+{
+
+}
+
+@media only screen and (min-width:1900px)
+{
+
+}
+
+@media only screen and (min-width:2400px)
+{
+
+}
